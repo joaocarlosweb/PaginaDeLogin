@@ -67,15 +67,16 @@ img:hover {
     margin: auto;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
 }
 .modalshow{
     margin: auto;
     width: 500px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 500px;
+    
     border: 1px solid blue;
     text-align: center;
     align-items: center;
