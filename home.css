@@ -7,7 +7,23 @@
 body{
     width: 100%;
     height: 100%;
+    display: flex;
     background-color: #1707fa;
     margin: auto;
     text-align: center;
+}
+.containerprincipal{
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family4: 'Fjalla One';
+    font-size: 45px;
 }
