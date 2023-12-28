@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fjalla One', sans-serif;
 }
-body{
+
+body {
     width: 100%;
     height: 100%;
     display: flex;
@@ -13,15 +14,17 @@ body{
     align-items: center;
     text-align: center;
 }
-.containerprincipal{
+
+.containerprincipal {
     margin: auto;
     width: 80%;
-    height:auto;
+    height: auto;
     display: flex;
     align-items: center;
     padding-top: 40px;
 }
-h1{
+
+h1 {
     width: 100%;
     margin: auto;
     text-align: center;
@@ -29,16 +32,19 @@ h1{
     font-family: 'Fjalla One';
     font-size: 40px;
 }
-.caixaHome{
+
+.caixaHome {
     margin: auto;
 }
-img{
+
+img {
     width: 300px;
     border: 0px solid transparent;
     border-radius: 50%;
     transition: 1.2s;
 
 }
-img:hover{
+
+img:hover {
     border: 19px solid blue;
 }
