@@ -8,22 +8,37 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: #1707fa;
+    background-color: whitesmoke;
     margin: auto;
+    align-items: center;
     text-align: center;
 }
 .containerprincipal{
     margin: auto;
     width: 80%;
-    height: 200px;
+    height:auto;
     display: flex;
     align-items: center;
+    padding-top: 40px;
 }
 h1{
     width: 100%;
     margin: auto;
     text-align: center;
-    color: white;
-    font-family4: 'Fjalla One';
-    font-size: 45px;
+    color: black;
+    font-family: 'Fjalla One';
+    font-size: 40px;
+}
+.caixaHome{
+    margin: auto;
+}
+img{
+    width: 300px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    transition: 1.2s;
+
+}
+img:hover{
+    border: 19px solid blue;
 }
