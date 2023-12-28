@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -45,7 +46,8 @@ button{
     border-radius: 10px;
     transition: 1.2s;
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 400;
+    outline: none;
 }
 button:hover{
     background-color: white;
@@ -59,7 +61,6 @@ img {
     padding-top: 30px;
     
 }
-
 img:hover {
     border: 17px solid blue;
 }
@@ -71,6 +72,7 @@ img:hover {
     text-align: center;
     align-items: center;
     background-color: blue;
+    
 }
 .modalshow{
     margin: auto;
@@ -82,5 +84,23 @@ img:hover {
     align-items: center;
     background-color: whitesmoke;
     border-radius: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    gap: 10px;
 }
+.caixaModal{
+    margin: auto;
+    width: 80%;
+    padding-top: 20px;
+}
+.listaPopup{
+    text-align: justify;
+    padding-top: 50px;
+}
+.btn_closed{
+    margin-top: 20px;
+}
+
+
+
 
