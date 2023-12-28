@@ -70,6 +70,7 @@ img:hover {
     padding-top:200px ;
     text-align: center;
     align-items: center;
+    background-color: blue;
 }
 .modalshow{
     margin: auto;
@@ -79,5 +80,7 @@ img:hover {
     border: 1px solid blue;
     text-align: center;
     align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
