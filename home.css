@@ -91,14 +91,33 @@ img:hover {
 .caixaModal{
     margin: auto;
     width: 80%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .listaPopup{
     text-align: justify;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .btn_closed{
-    margin-top: 20px;
+    margin-top: 10px;
+}
+@media(max-width:399px){
+    h1{
+        font-size: 22px;
+    }
+    img{
+        width: 200px;
+    }
+    .modalshow{
+        width: 90%;
+        margin: auto;
+    }
+    .modal{
+        padding-top: 15px;
+    }
+    button{
+        width: 80%;
+        flex-direction: column;
+    }
 }
 
 
