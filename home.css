@@ -100,7 +100,7 @@ img:hover {
 .btn_closed{
     margin-top: 10px;
 }
-@media(max-width:399px){
+@media(max-width:549px){
     h1{
         font-size: 22px;
     }
@@ -112,11 +112,14 @@ img:hover {
         margin: auto;
     }
     .modal{
-        padding-top: 15px;
+        padding-top: 20px;
     }
     button{
         width: 80%;
         flex-direction: column;
+    }
+    p{
+        font-weight: 100;
     }
 }
 
